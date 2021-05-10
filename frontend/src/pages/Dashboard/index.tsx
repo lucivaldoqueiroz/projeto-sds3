@@ -6,6 +6,7 @@ import NavBar from "components/NavBar";
 
 const Dashboard = () => {
     return (
+        <div>
             <>
                 <NavBar />
                 <div className="container">
@@ -32,6 +33,7 @@ const Dashboard = () => {
                 </div>
                 <Footer />
             </>
+        </div>
     );
 }
 
